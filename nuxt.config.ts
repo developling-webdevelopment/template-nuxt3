@@ -3,12 +3,12 @@ import UnpluginComponentsVite from 'unplugin-vue-components/vite'
 import IconsResolver from 'unplugin-icons/resolver'
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  buildModules: ['@nuxtjs/eslint-module','unplugin-icons/nuxt'],
-  modules: ['@nuxtjs/tailwindcss','@nuxt/content','@vueuse/nuxt'],
+  buildModules: ['@nuxtjs/eslint-module', 'unplugin-icons/nuxt'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/content', '@vueuse/nuxt'],
   content: {
     // https://content.nuxtjs.org/api/configuration
   },
-   app: {
+  app: {
     head: {
       title: 'Nuxt 3 Awesome Starter',
       titleTemplate: '%s - Nuxt 3 Awesome Starter',
@@ -24,9 +24,9 @@ export default defineNuxtConfig({
     },
   },
   typescript: {
-    shim: false
+    shim: false,
   },
-   vite: {
+  vite: {
     plugins: [
       UnpluginComponentsVite({
         dts: true,
