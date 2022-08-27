@@ -30,6 +30,6 @@
     "unplugin-vue-components": "0.22.4"
   },
   "dependencies": {
-    "prettier-plugin-tailwindcss": "^0.1.13"
+    "prettier-plugin-tailwindcss": "0.1.13"
   }
 }
