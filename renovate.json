@@ -2,19 +2,9 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base",
-    "group:allNonMajor",
+    "group:allNonMajor"
   ],
   "assignees": [
     "vanling"
-  ],
-   "packageRules": [
-    {
-      "matchPackagePatterns": ["commitlint","eslint","husky","lint-staged","prettier"],
-      "groupName": "tools"
-    },
-     {
-      "matchPackagePatterns": ["headlessui","iconify","nuxt","@nuxt","@nuxtjs","@vueuse","unplugin"],
-      "groupName": "nuxtApplication"
-    }
   ]
 }
