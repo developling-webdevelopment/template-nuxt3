@@ -12,8 +12,8 @@
     "clean": "rm -rf .nuxt dist .output"
   },
   "devDependencies": {
-    "@headlessui/vue": "1.7.4",
-    "@iconify/json": "2.1.149",
+    "@headlessui/vue": "1.7.5",
+    "@iconify/json": "2.1.151",
     "@nuxt/content": "2.2.2",
     "@nuxtjs/eslint-config-typescript": "12.0.0",
     "@nuxtjs/eslint-module": "3.1.0",
@@ -25,11 +25,11 @@
     "eslint-plugin-nuxt": "4.0.0",
     "eslint-plugin-prettier": "4.2.1",
     "nuxt": "3.0.0",
-    "prettier": "2.8.0",
-    "unplugin-icons": "0.14.14",
-    "unplugin-vue-components": "0.22.11"
+    "prettier": "2.8.1",
+    "unplugin-icons": "0.14.15",
+    "unplugin-vue-components": "0.22.12"
   },
   "dependencies": {
-    "prettier-plugin-tailwindcss": "0.2.0"
+    "prettier-plugin-tailwindcss": "0.2.1"
   }
 }
